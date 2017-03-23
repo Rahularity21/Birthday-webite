@@ -42,9 +42,42 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.bg-primary {
-  background-color: #F05F40;
+
+
+
+
+.bg-primary1{
+  background-color: #7D1935;
+  color: white;
 }
+
+.bg-primary2 {
+  background-color: #7d195c;
+  color: white;
+}
+
+.bg-primary {
+  background-color: #197d71;
+
+}
+
+.footer-contents{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+em{
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+footer small{
+  font-weight: 600;
+  padding-left: 20px;
+  font-size: 12px;
+  color: black;}
+
+
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -149,17 +182,16 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 100%;
+  background-position: center;
+  background: url('../img/header.jpg') center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url('../img/header.jpg');
+  background-size: cover;
   text-align: center;
   /*background-color: rgba(172,106,98,.99);*/
-  background-color: rgba(123, 65, 57  
-,.6);
+  background-color: rgba(123, 65, 57,0.5);
   background-blend-mode: multiply;
   color: white;
 }
@@ -170,9 +202,10 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: 550;
+  font-family: Bookman, serif;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 50;
   margin-bottom: 0;
   font-size: 30px;
 }
@@ -182,7 +215,7 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
@@ -237,7 +270,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(240, 95, 64, 0.5);
   position: absolute;
   bottom: 0;
   text-align: center;
